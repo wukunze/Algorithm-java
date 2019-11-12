@@ -6,7 +6,7 @@ x^6 - 6x^4 + x^3 + 12x + 根号3 = 0   求一个实解，精度10^-6
 public class homework {
     private static double function(double x)
 	{
-        return Math.pow(x, 6)-6 * Math.pow(x, 4) + Math.pow(x, 3) + 12*x + Math.sqrt(3);
+        return Math.pow(x, 6) - 6*Math.pow(x, 4) + Math.pow(x, 3) + 12*x + Math.sqrt(3);
 	}
 	public static void main(String[] args) {
 		double x1,x2,y1,y2,x3,y3;
